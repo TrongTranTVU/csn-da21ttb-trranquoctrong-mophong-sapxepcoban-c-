@@ -1,0 +1,20 @@
+﻿  Source.cpp
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(109,9): error C3861: 'randomizeAndSaveArray': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(110,9): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(133,29): error C3861: 'randomizeAndSaveArray': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(135,29): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(139,29): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(142,29): error C3861: 'selectionSort': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(147,29): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(150,29): error C3861: 'insertionSort': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(155,29): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(158,29): error C3861: 'bubbleSort': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(163,29): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(166,29): error C3861: 'mergeSort': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(171,29): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(174,29): error C3861: 'quickSort': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(179,29): error C3861: 'loadArr': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(182,29): error C3861: 'inplaceHeapSort': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(189,13): error C3861: 'visualize': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(191,9): error C3861: 'close': identifier not found
+D:\Univercity\110121121_TranQuocTrong\src\110121121\Source.cpp(322,11): error C3861: 'partition_array': identifier not found

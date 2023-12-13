@@ -1,0 +1,1574 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'output'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 9,
+                  "endLine": 266,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "merge2SortedArrays",
+                  "decoratedName": "?merge2SortedArrays@@YAXQEAHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 234,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'output' is an array of 1 elements (4 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid&&j<=ei' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'j<=ei')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'k' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'j<=ei')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'output[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory '*output'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 9,
+                  "endLine": 274,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "merge2SortedArrays",
+                  "decoratedName": "?merge2SortedArrays@@YAXQEAHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 234,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'*output' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid&&j<=ei' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'j<=ei' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'l<=ei')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'*output' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory '*output'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 9,
+                  "endLine": 274,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "merge2SortedArrays",
+                  "decoratedName": "?merge2SortedArrays@@YAXQEAHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 234,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'*output' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid&&j<=ei' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'j<=ei' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'l<=ei')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'*output' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'output'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 9,
+                  "endLine": 274,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "merge2SortedArrays",
+                  "decoratedName": "?merge2SortedArrays@@YAXQEAHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 234,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'output' is an array of 1 elements (4 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid&&j<=ei' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<=mid' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'j<=ei' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'l<=ei')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 275,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 276,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'x' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'l<=ei')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'output[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Univercity/110121121_TranQuocTrong/src/110121121/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "31b52efb57a5a599a9f51c1fd6c248038922258788da598798128d65e619450f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl.h"
+          },
+          "hashes": {
+            "sha-256": "adcebe52582978955ebcc9e06f072a28ffb5b3181ad6f4c5375bb2f866e313bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_main.h"
+          },
+          "hashes": {
+            "sha-256": "d6c8587c617762e8fc6a93f5ad533cac753b3bf24956e5397fcac7ac6aebe45a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "559e8ee6c5607971cd9000953f574c00265c8b67f59137089f4b60e4104e83d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "4860c759233673e2204c958ead4fb177be6a97cfcff1f1873975e1ef0a7f5059"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "ca34f28f985b2cc3ecef79c64bdd0a2ecd63447c3ea96029d27713af9eadcc15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "9598e70462ae4224aea70b66de465396220c30f94756652c55346d43b13458c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "ff1f06c5cd46688a338973b3fec79b23b7743f2b438845a2f245997e3929d16c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_assert.h"
+          },
+          "hashes": {
+            "sha-256": "269e0d4e053c965a14376b964160411a81cea69c756ff7e027adc9adcbb5663f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "sha-256": "94a65672e8ac2f9d3a6562525f8af260a9b2e330df41a4386e1814486dd51dbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_audio.h"
+          },
+          "hashes": {
+            "sha-256": "f403002338b0edfde05dc115710131d430c66546c3af09d8f3faf6488a29876d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_error.h"
+          },
+          "hashes": {
+            "sha-256": "b08e32c8ed3ab514819efe7614385af4096b975658a1c6cf86a6ba03b05f277c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_endian.h"
+          },
+          "hashes": {
+            "sha-256": "4eaa424d2bc0b7c4a139d65ecaaa78dce63d207610b96aec0613b6d7dd2dd3ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "sha-256": "7629897d51290fd3cb0dff9ee0f42ecf9bcae1e2ffdef66d9e31b4a72557fe89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_thread.h"
+          },
+          "hashes": {
+            "sha-256": "e6b972e18b475c3e62c789aea0ea297e15af6711923274557e3ca4d21202cfdc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "sha-256": "02376362bfb2ea8c7da6d751bc876195231e21fb9f2fa4cd00c989ef17df27b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "sha-256": "8b22af9bed93b60c2008c1bcb79c04173c4042764876fb24832fbcf49880cb53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "sha-256": "1565dc138052c5d01fa3186c83c7ec583e2bc955897fac793845eae2f08286aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_events.h"
+          },
+          "hashes": {
+            "sha-256": "2047d38ec266781fe86c7bacedb459293aa7bb3694ad82f630bc489338cce426"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_video.h"
+          },
+          "hashes": {
+            "sha-256": "7a7de3a010604485f63d664a65fbe238ff7cdb12290ddf0bd137fb86e2813544"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "sha-256": "f7a1155cf3e2c1df7530b127f78de7a013490d2e0182589508686bf9322679bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_rect.h"
+          },
+          "hashes": {
+            "sha-256": "39876f360f0627e1d4ece14dbe0610b13e62cf2164766470f2c9047813d1e983"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_surface.h"
+          },
+          "hashes": {
+            "sha-256": "10efa8b66f6c64e871bc58c8197c5e01c9d667d4b3d2317a62c219c666663170"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "sha-256": "64521ecb86cb380259803dd54ed09783e3a5bfcf5ed3cb45ff0681093e079664"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "sha-256": "e27811a5097ae8cadb44655df1c1e884b5d218ad38a1310b020b9add5db065b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "sha-256": "e329a891418ab5c513ea474edc4bb244937f9b0995a3312900b716c1b7ae9054"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "sha-256": "afb9eacdc2b217c297613e5825ce66be11e7140285072c5e3fb77db8daee7d83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "sha-256": "479c3d0da3602b0fb3e80024fdad8ac1f95bb42069a5fd2521d392d8ee3dd7ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "2282387b1c9b7a77b52eb7c2d2d52b221673500fcba71cfc6ab8d00275df2a77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_guid.h"
+          },
+          "hashes": {
+            "sha-256": "2513dbb767bc82188b39a8926c5ecb904cad450d4f226b96791de5c8f55b8228"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "sha-256": "16ecc4d89fdfe3e5d779a4ffee1315e0343798d3fc3764ff054b96f2e1ec7568"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "sha-256": "24a723094d0c6a97d014a568c4acae4d99c019f12d47f9dec94e9e054ac24db9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_quit.h"
+          },
+          "hashes": {
+            "sha-256": "3e21379d22f2773ab3140ca296f8797a957c92541303fef40523c5190324dc59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "sha-256": "33e0e63fbb4a12f814d62e0a89de39ad20e085d373ee41588e7f2082661d86c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_touch.h"
+          },
+          "hashes": {
+            "sha-256": "971ab29230e565ced41c57fb43b8365526c7eaadc871375a8917b3e26f6cb47b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "sha-256": "143bd98e4acda913643018d7299c7e7b9716e000fadc9235f85a5cb465b4b2f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "sha-256": "38ad39949efc9303db7fc330281de7f09cf82f4e98c1983c225036c665522b62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_hidapi.h"
+          },
+          "hashes": {
+            "sha-256": "04574b1398db5f0fca5548ac30e29c5f9b8de226828a5a4c620f89a082684a8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_hints.h"
+          },
+          "hashes": {
+            "sha-256": "a67f4a848fad4e3e77e5b1b888e577abc5ac52d06e44f42c99a34dd0287f3b6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "sha-256": "3d682b1bf8ac0d96798cc6135da6b849d389e37ec18edbed1802f9bb83abb798"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_log.h"
+          },
+          "hashes": {
+            "sha-256": "94f07d6a06bf02bed2899e46b9a6c6d040cf1fac9316f9d26d81dfa4dcc271c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "sha-256": "9638a17f58b3b745d88fbb1f4dfefc88b496a2fd84b1556adb37cf7d1ed4cf88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_metal.h"
+          },
+          "hashes": {
+            "sha-256": "93b17958680f0737e0ca4d30caf568c135414fd032e5c54bd16fad570fc09e11"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_power.h"
+          },
+          "hashes": {
+            "sha-256": "3b376add0e3d1e21dfaf18a2e10b40d7c363e932073d515ffefc4d42e4504aa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_render.h"
+          },
+          "hashes": {
+            "sha-256": "fbdaf5507d0836de271dce493248a539092785434dd88dc1fe359f2591023404"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_shape.h"
+          },
+          "hashes": {
+            "sha-256": "6f82d6e81e213565e4caccb914ee6058854d0fb8e230944970e455cdf9b3237a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_system.h"
+          },
+          "hashes": {
+            "sha-256": "9916949bd01d9b189e1e00bef757da34f4519ed750ee29924d71753fcd5364e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_timer.h"
+          },
+          "hashes": {
+            "sha-256": "1245870f559e9151fac68eba4f8184903651adfb9425a701c589aa0367d18bc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_version.h"
+          },
+          "hashes": {
+            "sha-256": "303c1f3b551e05db7cd3397a25b1a4220fb1f8b1cc9d5696c1623e7d2be2c26e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_locale.h"
+          },
+          "hashes": {
+            "sha-256": "c6f261ee32ccec9d640d276e608c07aaa7303cfb99f2b014d0ad2c2fd29a867f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/file/sdl/sdl2-2.28.5/include/sdl_misc.h"
+          },
+          "hashes": {
+            "sha-256": "33edc2aefb529ae630be99660c730bef2fe6acc3bf7c92f0123369693853be8e"
+          }
+        }
+      ]
+    }
+  ]
+}
