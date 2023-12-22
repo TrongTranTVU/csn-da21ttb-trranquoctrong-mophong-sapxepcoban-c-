@@ -1,2 +1,0 @@
-D:\Univercity\110121121_TranQuocTrong\src\x64\Debug\110121121.exe.lastcodeanalysissucceeded
-D:\Univercity\110121121_TranQuocTrong\src\110121121\x64\Debug\NativeCodeAnalysis.read.1.tlog
