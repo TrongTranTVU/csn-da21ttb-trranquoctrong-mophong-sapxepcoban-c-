@@ -1,14 +1,19 @@
-<a href="https://github.com/TrongTranTVU/csn-da21ttb-trranquoctrong-mophong-sapxepcoban-c-/tree/main">
-    <img src="https://i.ibb.co/d5n08bq/Banner-Git-Hub-AI-Streamer-900-x-200-px.gif">
-</a>
-<!-- Phần tiêu đề trang -->
-<a href="https://github.com/TrongTranTVU/csn-da21ttb-trranquoctrong-mophong-sapxepcoban-c-/tree/main">
-    <img src="https://i.ibb.co/4mfc8kN/Banner-Git-Hub-AI-Streamer-900-x-200-px-900-x-50-px.gif">
-</a>
-# Cách dùng ứng dụng
+## Tổng quan
+Dự án xây dựng phần mềm mô phỏng thuật toán sắp xếp bằng đồ họa là một quá trình nghiên cứu và triển khai ứng dụng dựa trên nhu cầu và trên dữ liệu đầu vào từ người dùng.
+> Lưu ý: Dự án này đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực học ttap65 trong tương lai.
 
-Sử dụng các phìm từ 1 - 8 để tiền hành chọn các chức năng ứng dụng
+## Tính năng chính
+Phần mềm mô phỏng thuật toán sắp xếp bằng đồ họa có các tính năng chính sau:
+- Sắp xếp được 5 thuật toán.
+- Nhập được số từ bàn phím.
+- Sắp xếp tăng dần và giảm dần.
+- Giao diện người dùng thân thiện và dễ sử dụng.
 
-- Do còn trong quá trình phát triển nền sẽ còn gặp vài lỗi
-- Các qáu trình sắp xếp sẽ không được mượt mà
-- Do lần đầu phát triển ứng dụng mô phỏng sắp xếp nếu có gì sai xót mong Thầy (Cô) bỏ qua
+## Thiết lập hệ thống
+- [Đang cập nhật lại toàn bộ nội dung]
+## Thiết lập môi trường
+- [Đang cập nhật lại toàn bộ nội dung]
+## Thông tin tác giả
+- [Đang cập nhật lại toàn bộ nội dung]
+## Thông tin giấy phép
+- [Đang cập nhật lại toàn bộ nội dung]
